@@ -1,0 +1,29 @@
+# Data from Zenodo (extracted next to the scripts; see README)
+code/rerun9/
+code/rerun10/
+code/rerun11/
+code/rerun14/
+code/rodada9/
+code/rodada11/
+code/rodada14/
+code/rerun4_artifacts/
+code/*.zip
+*.npz
+
+# Outputs that the scripts regenerate
+code/final_v10/log.txt
+code/final_v10/figs/
+code/final_n0/*.txt
+code/final_n0/*.json
+code/final_n0/figs/*.png
+code/final_r13/*.log
+figs/*.png
+
+# Zenodo upload helper and its state (authors only)
+tools/zenodo_rascunho.py
+tools/.zenodo*
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

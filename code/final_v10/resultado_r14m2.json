@@ -1,0 +1,1296 @@
+{
+  "tag": "r14m2",
+  "pasta": "rerun14/r14m2",
+  "ims": {
+    "1st_test": {
+      "seq": "1st_test",
+      "motivo": "estavel",
+      "testes": 1,
+      "trava": [
+        0,
+        24
+      ],
+      "N": 2156,
+      "fim_dia": 34.48162037037037,
+      "dur_dias": 34.48162037037037,
+      "falhou": [
+        3,
+        4
+      ],
+      "s0": 0,
+      "n": 24,
+      "fim_com_dia": 0.0783449074074074,
+      "fim_com_h_aq": 4.0,
+      "desfecho": {
+        "cat": "saudavel longe",
+        "rol": 1,
+        "lead_d": 27.38
+      },
+      "cat": "saudavel longe",
+      "conta_acerto": false,
+      "rol": {
+        "1": {
+          "kmin": 9,
+          "falhou": false,
+          "alarme_dia": 7.1065046296296295,
+          "onset": 156,
+          "lead_d": 27.38,
+          "rem_pct_tempo": 79.39,
+          "rem_pct_aq": 92.76,
+          "linha_do_tempo": [
+            27.38
+          ],
+          "recomissionamentos": 9
+        },
+        "2": {
+          "kmin": 9,
+          "falhou": false,
+          "alarme_dia": 33.94523148148148,
+          "onset": 2119,
+          "lead_d": 0.54,
+          "rem_pct_tempo": 1.56,
+          "rem_pct_aq": 1.72,
+          "linha_do_tempo": [
+            0.54
+          ],
+          "recomissionamentos": 9
+        },
+        "3": {
+          "kmin": 14,
+          "falhou": true,
+          "alarme_dia": 31.48648148148148,
+          "onset": 1860,
+          "lead_d": 3.0,
+          "rem_pct_tempo": 8.69,
+          "rem_pct_aq": 13.73,
+          "linha_do_tempo": [
+            3.0
+          ],
+          "recomissionamentos": 0
+        },
+        "4": {
+          "kmin": 7,
+          "falhou": true,
+          "alarme_dia": 28.989016203703702,
+          "onset": 1507,
+          "lead_d": 5.49,
+          "rem_pct_tempo": 15.93,
+          "rem_pct_aq": 30.1,
+          "linha_do_tempo": [
+            5.49,
+            0.48
+          ],
+          "recomissionamentos": 0
+        }
+      }
+    },
+    "2nd_test": {
+      "seq": "2nd_test",
+      "motivo": "estavel",
+      "testes": 1,
+      "trava": [
+        0,
+        24
+      ],
+      "N": 984,
+      "fim_dia": 6.826388888888889,
+      "dur_dias": 6.826388888888889,
+      "falhou": [
+        1
+      ],
+      "s0": 0,
+      "n": 24,
+      "fim_com_dia": 0.1597222222222222,
+      "fim_com_h_aq": 4.0,
+      "desfecho": {
+        "cat": "certo",
+        "rol": 1,
+        "lead_d": 2.71
+      },
+      "cat": "certo",
+      "conta_acerto": true,
+      "rol": {
+        "1": {
+          "kmin": 7,
+          "falhou": true,
+          "alarme_dia": 4.118055555555555,
+          "onset": 593,
+          "lead_d": 2.71,
+          "rem_pct_tempo": 39.67,
+          "rem_pct_aq": 39.74,
+          "linha_do_tempo": [
+            2.71,
+            1.95,
+            1.7,
+            0.54,
+            0.04
+          ],
+          "recomissionamentos": 0
+        },
+        "2": {
+          "kmin": 8,
+          "falhou": false,
+          "alarme_dia": 6.354166666666667,
+          "onset": 915,
+          "lead_d": 0.47,
+          "rem_pct_tempo": 6.92,
+          "rem_pct_aq": 7.01,
+          "linha_do_tempo": [
+            0.47,
+            0.08
+          ],
+          "recomissionamentos": 0
+        },
+        "3": {
+          "kmin": 9,
+          "falhou": false,
+          "alarme_dia": 6.090277777777778,
+          "onset": 877,
+          "lead_d": 0.74,
+          "rem_pct_tempo": 10.78,
+          "rem_pct_aq": 10.87,
+          "linha_do_tempo": [
+            0.74,
+            0.35
+          ],
+          "recomissionamentos": 0
+        },
+        "4": {
+          "kmin": 9,
+          "falhou": false,
+          "alarme_dia": 5.819444444444445,
+          "onset": 838,
+          "lead_d": 1.01,
+          "rem_pct_tempo": 14.75,
+          "rem_pct_aq": 14.84,
+          "linha_do_tempo": [
+            1.01,
+            0.62,
+            0.21
+          ],
+          "recomissionamentos": 0
+        }
+      }
+    },
+    "4th_test": {
+      "seq": "4th_test",
+      "motivo": "estavel",
+      "testes": 1,
+      "trava": [
+        0,
+        24
+      ],
+      "N": 6324,
+      "fim_dia": 44.71885416666667,
+      "dur_dias": 44.71885416666667,
+      "falhou": [
+        3
+      ],
+      "s0": 0,
+      "n": 24,
+      "fim_com_dia": 0.15625,
+      "fim_com_h_aq": 4.0,
+      "desfecho": {
+        "cat": "saudavel longe",
+        "rol": 2,
+        "lead_d": 37.55
+      },
+      "cat": "saudavel longe",
+      "conta_acerto": false,
+      "rol": {
+        "1": {
+          "kmin": 7,
+          "falhou": false,
+          "alarme_dia": 42.26746527777778,
+          "onset": 5970,
+          "lead_d": 2.45,
+          "rem_pct_tempo": 5.48,
+          "rem_pct_aq": 5.6,
+          "linha_do_tempo": [
+            2.45,
+            0.6
+          ],
+          "recomissionamentos": 3
+        },
+        "2": {
+          "kmin": 7,
+          "falhou": false,
+          "alarme_dia": 7.170138888888889,
+          "onset": 1033,
+          "lead_d": 37.55,
+          "rem_pct_tempo": 83.97,
+          "rem_pct_aq": 83.67,
+          "linha_do_tempo": [
+            37.55,
+            2.47,
+            1.14,
+            0.08
+          ],
+          "recomissionamentos": 3
+        },
+        "3": {
+          "kmin": 9,
+          "falhou": true,
+          "alarme_dia": 42.48274305555555,
+          "onset": 6001,
+          "lead_d": 2.24,
+          "rem_pct_tempo": 5.0,
+          "rem_pct_aq": 5.11,
+          "linha_do_tempo": [
+            2.24,
+            1.62,
+            0.92,
+            0.47,
+            0.12
+          ],
+          "recomissionamentos": 3
+        },
+        "4": {
+          "kmin": 7,
+          "falhou": false,
+          "alarme_dia": 14.38025462962963,
+          "onset": 2046,
+          "lead_d": 30.34,
+          "rem_pct_tempo": 67.84,
+          "rem_pct_aq": 67.65,
+          "linha_do_tempo": [
+            30.34,
+            28.06,
+            17.27,
+            1.14,
+            0.4
+          ],
+          "recomissionamentos": 3
+        }
+      }
+    }
+  },
+  "grade": {
+    "celulas": {
+      "0|1": [
+        "saudavel longe",
+        "certo",
+        "saudavel longe"
+      ],
+      "0|2": [
+        "saudavel longe",
+        "certo",
+        "saudavel longe"
+      ],
+      "0|4": [
+        "saudavel longe",
+        "certo",
+        "saudavel longe"
+      ],
+      "0|6": [
+        "saudavel longe",
+        "certo",
+        "saudavel longe"
+      ],
+      "0|12": [
+        "saudavel longe",
+        "certo",
+        "saudavel longe"
+      ],
+      "0|18": [
+        "saudavel longe",
+        "certo",
+        "saudavel longe"
+      ],
+      "0|24": [
+        "saudavel longe",
+        "certo",
+        "saudavel longe"
+      ],
+      "0|36": [
+        "certo",
+        "certo",
+        "saudavel longe"
+      ],
+      "0|48": [
+        "certo",
+        "certo",
+        "certo"
+      ],
+      "0|72": [
+        "saudavel longe",
+        "certo",
+        "eixo"
+      ],
+      "2|1": [
+        "saudavel longe",
+        "certo",
+        "saudavel longe"
+      ],
+      "2|2": [
+        "saudavel longe",
+        "certo",
+        "saudavel longe"
+      ],
+      "2|4": [
+        "saudavel longe",
+        "certo",
+        "saudavel longe"
+      ],
+      "2|6": [
+        "saudavel longe",
+        "certo",
+        "saudavel longe"
+      ],
+      "2|12": [
+        "saudavel longe",
+        "certo",
+        "saudavel longe"
+      ],
+      "2|18": [
+        "saudavel longe",
+        "certo",
+        "saudavel longe"
+      ],
+      "2|24": [
+        "saudavel longe",
+        "certo",
+        "saudavel longe"
+      ],
+      "2|36": [
+        "certo",
+        "certo",
+        "saudavel longe"
+      ],
+      "2|48": [
+        "certo",
+        "certo",
+        "certo"
+      ],
+      "2|72": [
+        "saudavel longe",
+        "certo",
+        "certo"
+      ],
+      "4|1": [
+        "saudavel longe",
+        "certo",
+        "saudavel longe"
+      ],
+      "4|2": [
+        "saudavel longe",
+        "certo",
+        "saudavel longe"
+      ],
+      "4|4": [
+        "saudavel longe",
+        "certo",
+        "saudavel longe"
+      ],
+      "4|6": [
+        "saudavel longe",
+        "certo",
+        "saudavel longe"
+      ],
+      "4|12": [
+        "saudavel longe",
+        "certo",
+        "saudavel longe"
+      ],
+      "4|18": [
+        "saudavel longe",
+        "certo",
+        "saudavel longe"
+      ],
+      "4|24": [
+        "saudavel longe",
+        "certo",
+        "saudavel longe"
+      ],
+      "4|36": [
+        "certo",
+        "certo",
+        "saudavel longe"
+      ],
+      "4|48": [
+        "certo",
+        "certo",
+        "certo"
+      ],
+      "4|72": [
+        "saudavel longe",
+        "certo",
+        "certo"
+      ],
+      "6|1": [
+        "saudavel longe",
+        "certo",
+        "saudavel longe"
+      ],
+      "6|2": [
+        "saudavel longe",
+        "certo",
+        "saudavel longe"
+      ],
+      "6|4": [
+        "saudavel longe",
+        "certo",
+        "saudavel longe"
+      ],
+      "6|6": [
+        "saudavel longe",
+        "certo",
+        "saudavel longe"
+      ],
+      "6|12": [
+        "saudavel longe",
+        "certo",
+        "saudavel longe"
+      ],
+      "6|18": [
+        "saudavel longe",
+        "certo",
+        "saudavel longe"
+      ],
+      "6|24": [
+        "certo",
+        "certo",
+        "saudavel longe"
+      ],
+      "6|36": [
+        "certo",
+        "certo",
+        "saudavel longe"
+      ],
+      "6|48": [
+        "certo",
+        "certo",
+        "certo"
+      ],
+      "6|72": [
+        "saudavel longe",
+        "certo",
+        "certo"
+      ],
+      "12|1": [
+        "saudavel longe",
+        "certo",
+        "saudavel longe"
+      ],
+      "12|2": [
+        "saudavel longe",
+        "certo",
+        "saudavel longe"
+      ],
+      "12|4": [
+        "saudavel longe",
+        "certo",
+        "saudavel longe"
+      ],
+      "12|6": [
+        "saudavel longe",
+        "certo",
+        "saudavel longe"
+      ],
+      "12|12": [
+        "saudavel longe",
+        "certo",
+        "saudavel longe"
+      ],
+      "12|18": [
+        "certo",
+        "certo",
+        "saudavel longe"
+      ],
+      "12|24": [
+        "saudavel longe",
+        "certo",
+        "saudavel longe"
+      ],
+      "12|36": [
+        "eixo",
+        "certo",
+        "saudavel longe"
+      ],
+      "12|48": [
+        "saudavel longe",
+        "certo",
+        "certo"
+      ],
+      "12|72": [
+        "saudavel longe",
+        "certo",
+        "certo"
+      ],
+      "24|1": [
+        "saudavel longe",
+        "certo",
+        "saudavel longe"
+      ],
+      "24|2": [
+        "saudavel longe",
+        "certo",
+        "saudavel longe"
+      ],
+      "24|4": [
+        "eixo",
+        "certo",
+        "saudavel longe"
+      ],
+      "24|6": [
+        "eixo",
+        "certo",
+        "saudavel longe"
+      ],
+      "24|12": [
+        "eixo",
+        "certo",
+        "saudavel longe"
+      ],
+      "24|18": [
+        "eixo",
+        "certo",
+        "saudavel longe"
+      ],
+      "24|24": [
+        "eixo",
+        "certo",
+        "saudavel longe"
+      ],
+      "24|36": [
+        "eixo",
+        "certo",
+        "saudavel longe"
+      ],
+      "24|48": [
+        "saudavel longe",
+        "certo",
+        "certo"
+      ],
+      "24|72": [
+        "saudavel longe",
+        "certo",
+        "eixo"
+      ],
+      "36|1": [
+        "eixo",
+        "certo",
+        "saudavel longe"
+      ],
+      "36|2": [
+        "eixo",
+        "certo",
+        "saudavel longe"
+      ],
+      "36|4": [
+        "eixo",
+        "certo",
+        "saudavel longe"
+      ],
+      "36|6": [
+        "eixo",
+        "certo",
+        "saudavel longe"
+      ],
+      "36|12": [
+        "eixo",
+        "certo",
+        "saudavel longe"
+      ],
+      "36|18": [
+        "eixo",
+        "certo",
+        "saudavel longe"
+      ],
+      "36|24": [
+        "eixo",
+        "certo",
+        "saudavel longe"
+      ],
+      "36|36": [
+        "eixo",
+        "certo",
+        "saudavel longe"
+      ],
+      "36|48": [
+        "saudavel longe",
+        "certo",
+        "certo"
+      ],
+      "36|72": [
+        "saudavel longe",
+        "certo",
+        "eixo"
+      ],
+      "48|1": [
+        "eixo",
+        "certo",
+        "saudavel longe"
+      ],
+      "48|2": [
+        "eixo",
+        "certo",
+        "saudavel longe"
+      ],
+      "48|4": [
+        "eixo",
+        "certo",
+        "saudavel longe"
+      ],
+      "48|6": [
+        "eixo",
+        "certo",
+        "saudavel longe"
+      ],
+      "48|12": [
+        "eixo",
+        "certo",
+        "saudavel longe"
+      ],
+      "48|18": [
+        "eixo",
+        "certo",
+        "saudavel longe"
+      ],
+      "48|24": [
+        "eixo",
+        "certo",
+        "saudavel longe"
+      ],
+      "48|36": [
+        "eixo",
+        "certo",
+        "saudavel longe"
+      ],
+      "48|48": [
+        "saudavel longe",
+        "certo",
+        "certo"
+      ],
+      "48|72": [
+        "saudavel longe",
+        "eixo",
+        "certo"
+      ],
+      "72|1": [
+        "eixo",
+        "certo",
+        "saudavel longe"
+      ],
+      "72|2": [
+        "eixo",
+        "certo",
+        "saudavel longe"
+      ],
+      "72|4": [
+        "eixo",
+        "certo",
+        "saudavel longe"
+      ],
+      "72|6": [
+        "eixo",
+        "certo",
+        "saudavel longe"
+      ],
+      "72|12": [
+        "eixo",
+        "certo",
+        "saudavel longe"
+      ],
+      "72|18": [
+        "saudavel longe",
+        "certo",
+        "saudavel longe"
+      ],
+      "72|24": [
+        "saudavel longe",
+        "certo",
+        "saudavel longe"
+      ],
+      "72|36": [
+        "eixo",
+        "certo",
+        "saudavel longe"
+      ],
+      "72|48": [
+        "saudavel longe",
+        "eixo",
+        "certo"
+      ],
+      "72|72": [
+        "saudavel longe",
+        "saudavel longe",
+        "eixo"
+      ],
+      "96|1": [
+        "saudavel longe",
+        "certo",
+        "saudavel longe"
+      ],
+      "96|2": [
+        "eixo",
+        "certo",
+        "saudavel longe"
+      ],
+      "96|4": [
+        "certo",
+        "certo",
+        "saudavel longe"
+      ],
+      "96|6": [
+        "eixo",
+        "certo",
+        "saudavel longe"
+      ],
+      "96|12": [
+        "eixo",
+        "certo",
+        "saudavel longe"
+      ],
+      "96|18": [
+        "eixo",
+        "certo",
+        "saudavel longe"
+      ],
+      "96|24": [
+        "eixo",
+        "certo",
+        "saudavel longe"
+      ],
+      "96|36": [
+        "eixo",
+        "saudavel longe",
+        "saudavel longe"
+      ],
+      "96|48": [
+        "saudavel longe",
+        "saudavel longe",
+        "certo"
+      ],
+      "96|72": [
+        "saudavel longe",
+        "nao cabe",
+        "eixo"
+      ]
+    },
+    "tres_de_tres": 4,
+    "tres_pelo_eixo": 4,
+    "certas_por_set": [
+      11,
+      94,
+      15
+    ],
+    "n_celulas": 100
+  },
+  "pron": {
+    "rolamentos": {
+      "Bearing1_1": {
+        "cond": 1,
+        "snapshots": 2803,
+        "truncado_em": null,
+        "onset": 50,
+        "rem_pct": 98.22,
+        "kmin": 4,
+        "q_oos": 0.1833,
+        "lead_h": 7.647,
+        "nos_10min": true,
+        "lead_corte_h": null,
+        "depois_do_corte": false
+      },
+      "Bearing1_2": {
+        "cond": 1,
+        "snapshots": 871,
+        "truncado_em": null,
+        "onset": 730,
+        "rem_pct": 16.19,
+        "kmin": 4,
+        "q_oos": 0.1167,
+        "lead_h": 0.392,
+        "nos_10min": false,
+        "lead_corte_h": null,
+        "depois_do_corte": false
+      },
+      "Bearing1_3": {
+        "cond": 1,
+        "snapshots": 2375,
+        "truncado_em": 1802,
+        "onset": 653,
+        "rem_pct": 72.51,
+        "kmin": 4,
+        "q_oos": 0.01,
+        "lead_h": 4.783,
+        "nos_10min": false,
+        "lead_corte_h": 3.192,
+        "depois_do_corte": false
+      },
+      "Bearing1_4": {
+        "cond": 1,
+        "snapshots": 1428,
+        "truncado_em": null,
+        "onset": 1087,
+        "rem_pct": 23.88,
+        "kmin": 4,
+        "q_oos": 0.3333,
+        "lead_h": 0.947,
+        "nos_10min": false,
+        "lead_corte_h": null,
+        "depois_do_corte": false
+      },
+      "Bearing1_5": {
+        "cond": 1,
+        "snapshots": 2463,
+        "truncado_em": 2302,
+        "onset": 674,
+        "rem_pct": 72.63,
+        "kmin": 4,
+        "q_oos": 0.0167,
+        "lead_h": 4.969,
+        "nos_10min": false,
+        "lead_corte_h": 4.522,
+        "depois_do_corte": false
+      },
+      "Bearing1_6": {
+        "cond": 1,
+        "snapshots": 2448,
+        "truncado_em": 2302,
+        "onset": 1586,
+        "rem_pct": 35.21,
+        "kmin": 4,
+        "q_oos": 0.0833,
+        "lead_h": 2.394,
+        "nos_10min": false,
+        "lead_corte_h": 1.989,
+        "depois_do_corte": false
+      },
+      "Bearing1_7": {
+        "cond": 1,
+        "snapshots": 2259,
+        "truncado_em": 1502,
+        "onset": 1237,
+        "rem_pct": 45.24,
+        "kmin": 4,
+        "q_oos": 0.0667,
+        "lead_h": 2.839,
+        "nos_10min": false,
+        "lead_corte_h": 0.736,
+        "depois_do_corte": false
+      },
+      "Bearing2_1": {
+        "cond": 2,
+        "snapshots": 911,
+        "truncado_em": null,
+        "onset": 131,
+        "rem_pct": 85.62,
+        "kmin": 4,
+        "q_oos": 0.01,
+        "lead_h": 2.167,
+        "nos_10min": false,
+        "lead_corte_h": null,
+        "depois_do_corte": false
+      },
+      "Bearing2_2": {
+        "cond": 2,
+        "snapshots": 797,
+        "truncado_em": null,
+        "onset": 180,
+        "rem_pct": 77.42,
+        "kmin": 4,
+        "q_oos": 0.4,
+        "lead_h": 1.714,
+        "nos_10min": false,
+        "lead_corte_h": null,
+        "depois_do_corte": false
+      },
+      "Bearing2_3": {
+        "cond": 2,
+        "snapshots": 1955,
+        "truncado_em": 1202,
+        "onset": 64,
+        "rem_pct": 96.73,
+        "kmin": 4,
+        "q_oos": 0.01,
+        "lead_h": 5.253,
+        "nos_10min": true,
+        "lead_corte_h": 3.161,
+        "depois_do_corte": false
+      },
+      "Bearing2_4": {
+        "cond": 2,
+        "snapshots": 751,
+        "truncado_em": 612,
+        "onset": 515,
+        "rem_pct": 31.42,
+        "kmin": 4,
+        "q_oos": 0.0167,
+        "lead_h": 0.656,
+        "nos_10min": false,
+        "lead_corte_h": 0.269,
+        "depois_do_corte": false
+      },
+      "Bearing2_5": {
+        "cond": 2,
+        "snapshots": 2311,
+        "truncado_em": 2002,
+        "onset": 165,
+        "rem_pct": 92.86,
+        "kmin": 4,
+        "q_oos": 0.05,
+        "lead_h": 5.961,
+        "nos_10min": false,
+        "lead_corte_h": 5.103,
+        "depois_do_corte": false
+      },
+      "Bearing2_6": {
+        "cond": 2,
+        "snapshots": 701,
+        "truncado_em": 572,
+        "onset": 483,
+        "rem_pct": 31.1,
+        "kmin": 4,
+        "q_oos": 0.1167,
+        "lead_h": 0.606,
+        "nos_10min": false,
+        "lead_corte_h": 0.247,
+        "depois_do_corte": false
+      },
+      "Bearing2_7": {
+        "cond": 2,
+        "snapshots": 230,
+        "truncado_em": 172,
+        "onset": 213,
+        "rem_pct": 7.39,
+        "kmin": 4,
+        "q_oos": 0.1333,
+        "lead_h": 0.047,
+        "nos_10min": false,
+        "lead_corte_h": null,
+        "depois_do_corte": true
+      },
+      "Bearing3_1": {
+        "cond": 3,
+        "snapshots": 515,
+        "truncado_em": null,
+        "onset": 59,
+        "rem_pct": 88.54,
+        "kmin": 4,
+        "q_oos": 0.01,
+        "lead_h": 1.267,
+        "nos_10min": true,
+        "lead_corte_h": null,
+        "depois_do_corte": false
+      },
+      "Bearing3_2": {
+        "cond": 3,
+        "snapshots": 1637,
+        "truncado_em": null,
+        "onset": 109,
+        "rem_pct": 93.34,
+        "kmin": 4,
+        "q_oos": 0.01,
+        "lead_h": 4.244,
+        "nos_10min": false,
+        "lead_corte_h": null,
+        "depois_do_corte": false
+      },
+      "Bearing3_3": {
+        "cond": 3,
+        "snapshots": 434,
+        "truncado_em": 352,
+        "onset": 318,
+        "rem_pct": 26.73,
+        "kmin": 4,
+        "q_oos": 0.7333,
+        "lead_h": 0.322,
+        "nos_10min": false,
+        "lead_corte_h": 0.094,
+        "depois_do_corte": false
+      }
+    },
+    "alarmam": 17,
+    "total": 17,
+    "sem_alarme": [],
+    "mediana_rem": 72.51,
+    "mediana_lead_h": 2.167,
+    "nos_10min": 3,
+    "por_cond": {
+      "1": {
+        "alarmam": 7,
+        "total": 7,
+        "mediana_rem": 45.24,
+        "mediana_lead_h": 2.839
+      },
+      "2": {
+        "alarmam": 7,
+        "total": 7,
+        "mediana_rem": 77.42,
+        "mediana_lead_h": 1.714
+      },
+      "3": {
+        "alarmam": 3,
+        "total": 3,
+        "mediana_rem": 88.54,
+        "mediana_lead_h": 1.267
+      }
+    }
+  },
+  "jnu": {
+    "trava": {
+      "600": [
+        0,
+        1465
+      ],
+      "800": [
+        0,
+        1465
+      ],
+      "1000": [
+        586,
+        879
+      ]
+    },
+    "motivo": {
+      "600": "fim da janela, homogeneo",
+      "800": "fim da janela, homogeneo",
+      "1000": "fim da janela, homogeneo"
+    },
+    "por_rpm": {
+      "600": {
+        "trava": [
+          0,
+          1465
+        ],
+        "q_oos": 0.015,
+        "corretas": 4,
+        "T": 19.923209609985342,
+        "normal": {
+          "k": 14,
+          "n": 1466,
+          "kmin": 53,
+          "pct_marcadas": 0.95,
+          "falha": false,
+          "certa": true,
+          "janelas_certas": 1452
+        },
+        "inner": {
+          "k": 427,
+          "n": 976,
+          "kmin": 41,
+          "pct_marcadas": 43.75,
+          "falha": true,
+          "certa": true,
+          "janelas_certas": 427
+        },
+        "outer": {
+          "k": 972,
+          "n": 976,
+          "kmin": 41,
+          "pct_marcadas": 99.59,
+          "falha": true,
+          "certa": true,
+          "janelas_certas": 972
+        },
+        "ball": {
+          "k": 879,
+          "n": 976,
+          "kmin": 41,
+          "pct_marcadas": 90.06,
+          "falha": true,
+          "certa": true,
+          "janelas_certas": 879
+        }
+      },
+      "800": {
+        "trava": [
+          0,
+          1465
+        ],
+        "q_oos": 0.01,
+        "corretas": 4,
+        "T": 20.622026367187484,
+        "normal": {
+          "k": 6,
+          "n": 1466,
+          "kmin": 41,
+          "pct_marcadas": 0.41,
+          "falha": false,
+          "certa": true,
+          "janelas_certas": 1460
+        },
+        "inner": {
+          "k": 842,
+          "n": 976,
+          "kmin": 32,
+          "pct_marcadas": 86.27,
+          "falha": true,
+          "certa": true,
+          "janelas_certas": 842
+        },
+        "outer": {
+          "k": 975,
+          "n": 976,
+          "kmin": 32,
+          "pct_marcadas": 99.9,
+          "falha": true,
+          "certa": true,
+          "janelas_certas": 975
+        },
+        "ball": {
+          "k": 963,
+          "n": 976,
+          "kmin": 32,
+          "pct_marcadas": 98.67,
+          "falha": true,
+          "certa": true,
+          "janelas_certas": 963
+        }
+      },
+      "1000": {
+        "trava": [
+          586,
+          879
+        ],
+        "q_oos": 0.025,
+        "corretas": 4,
+        "T": 18.63044887542725,
+        "normal": {
+          "k": 36,
+          "n": 1466,
+          "kmin": 75,
+          "pct_marcadas": 2.46,
+          "falha": false,
+          "certa": true,
+          "janelas_certas": 1430
+        },
+        "inner": {
+          "k": 796,
+          "n": 976,
+          "kmin": 57,
+          "pct_marcadas": 81.56,
+          "falha": true,
+          "certa": true,
+          "janelas_certas": 796
+        },
+        "outer": {
+          "k": 976,
+          "n": 976,
+          "kmin": 57,
+          "pct_marcadas": 100.0,
+          "falha": true,
+          "certa": true,
+          "janelas_certas": 976
+        },
+        "ball": {
+          "k": 947,
+          "n": 976,
+          "kmin": 57,
+          "pct_marcadas": 97.03,
+          "falha": true,
+          "certa": true,
+          "janelas_certas": 947
+        }
+      }
+    },
+    "corretas": 12,
+    "total": 12,
+    "janelas_certas": 12119,
+    "janelas_total": 13182,
+    "acc_janela_pct": 91.94
+  },
+  "mafaulda": {
+    "resumo": {
+      "n_open": 1538,
+      "n_normal": 49,
+      "tp_artigo": 1538,
+      "fp_artigo": 0,
+      "tp_loos": 1538,
+      "fp_loos": 0,
+      "janelas_normais_pct": 1.4607948442534908,
+      "por_classe": {
+        "horizontal-misalignment": "193/193",
+        "overhang-bearing": "503/503",
+        "underhang-bearing": "547/547",
+        "vertical-misalignment": "295/295"
+      }
+    },
+    "loos": {
+      "tp": 1538,
+      "fp": 0,
+      "fn": 0,
+      "tn": 49,
+      "acuracia": 1.0,
+      "recall": 1.0,
+      "especificidade": 1.0,
+      "precisao": 1.0,
+      "f1": 1.0,
+      "gmean": 1.0,
+      "auc_Pr": 1.0,
+      "por_familia": {
+        "horizontal-misalignment": [
+          193,
+          193
+        ],
+        "overhang-bearing": [
+          503,
+          503
+        ],
+        "underhang-bearing": [
+          547,
+          547
+        ],
+        "vertical-misalignment": [
+          295,
+          295
+        ]
+      },
+      "desbal": [
+        333,
+        333
+      ],
+      "open_set_V": [
+        31,
+        31
+      ],
+      "n_aberto": 1538,
+      "n_normal": 49
+    },
+    "artigo": {
+      "tp": 1538,
+      "fp": 0,
+      "fn": 0,
+      "tn": 49,
+      "acuracia": 1.0,
+      "recall": 1.0,
+      "especificidade": 1.0,
+      "precisao": 1.0,
+      "f1": 1.0,
+      "gmean": 1.0,
+      "auc_Pr": 1.0,
+      "por_familia": {
+        "horizontal-misalignment": [
+          193,
+          193
+        ],
+        "overhang-bearing": [
+          503,
+          503
+        ],
+        "underhang-bearing": [
+          547,
+          547
+        ],
+        "vertical-misalignment": [
+          295,
+          295
+        ]
+      },
+      "desbal": [
+        333,
+        333
+      ],
+      "open_set_V": [
+        31,
+        31
+      ],
+      "n_aberto": 1538,
+      "n_normal": 49
+    },
+    "normais_alarmadas_loos": [],
+    "normais_alarmadas_artigo": []
+  },
+  "segundos": 146
+}

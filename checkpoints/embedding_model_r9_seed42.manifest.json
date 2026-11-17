@@ -1,0 +1,78 @@
+{
+  "rodada": 9,
+  "gerado_em": "2026-11-03 19:08:19",
+  "checkpoints": {
+    "42": {
+      "path": "/content/rodada9/embedding_model_r9_seed42.pth",
+      "sha": "010fdfde696cf5f9"
+    }
+  },
+  "checkpoint_principal": "010fdfde696cf5f9",
+  "embeddings": {
+    "r9": "010fdfde696cf5f9",
+    "r7": "194613ff775cd56c"
+  },
+  "treino": {
+    "margin": 0.8,
+    "lr": 0.0003,
+    "epochs": 12,
+    "steps_per_epoch": 2000,
+    "batch": 64,
+    "seeds": [
+      42
+    ],
+    "max_win_train": 48,
+    "otimizador": "Adam",
+    "perda": "TripletMarginLoss(p=2)"
+  },
+  "trios": {
+    "estrategia": "por ponto de operacao (gravacoes.csv)",
+    "pontos": 49,
+    "ancora_e_positivo": "duas janelas do bloco de treino da normal do ponto",
+    "negativo": "janela de desbalanceamento do mesmo ponto",
+    "aug": "aug_weak(shift 64, amp 0.85-1.15, ruido 0.02), apos o z-score"
+  },
+  "blocos_normal": {
+    "treino": [
+      0,
+      97
+    ],
+    "enrolment": [
+      98,
+      391
+    ],
+    "teste": [
+      392,
+      487
+    ]
+  },
+  "gravacoes": 1951,
+  "resumo": {
+    "r9": {
+      "normais_saudaveis": 49,
+      "normais": 49,
+      "janelas_normais_marcadas": 1.8045112781954886,
+      "open_set_detectadas": 1397,
+      "open_set": 1538
+    },
+    "r7": {
+      "normais_saudaveis": 49,
+      "normais": 49,
+      "janelas_normais_marcadas": 1.6756176154672395,
+      "open_set_detectadas": 1410,
+      "open_set": 1538
+    }
+  },
+  "teste_local": false,
+  "minutos": 27.3,
+  "files": [
+    "curva_perda.png",
+    "embedding_model_r9_seed42.pth",
+    "mafaulda_emb_r7.npz",
+    "mafaulda_emb_r9.npz",
+    "particao.json",
+    "resumo.json",
+    "tacometro.csv",
+    "treino_log.csv"
+  ]
+}

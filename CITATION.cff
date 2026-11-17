@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the article (and, until it is published, the Zenodo record)."
+title: "A Declared Commissioning Rule for Vibration-Based Fault Detection on New Machines: code and data"
+type: software
+license: MIT
+version: "1.0.0"
+date-released: "2026-11-17"
+repository-code: "https://github.com/luislolis/new-machine-commissioning"
+authors:
+  - family-names: Souza
+    given-names: Misael Silva
+    affiliation: Federal University of Paraná
+    orcid: "https://orcid.org/0009-0006-6776-8243"
+  - family-names: Lolis
+    given-names: Luis Henrique Assumpção
+    affiliation: Federal University of Paraná
+    orcid: "https://orcid.org/0000-0001-9123-4459"
+  - family-names: Sardá
+    given-names: Alexandre Augusto Pescador
+    affiliation: Federal University of Paraná
+    orcid: "https://orcid.org/0009-0001-1598-0916"
+keywords:
+  - vibration
+  - fault detection
+  - commissioning
+  - anomaly detection
+  - bearings
+preferred-citation:
+  type: article
+  title: "A Declared Commissioning Rule for Vibration-Based Fault Detection on New Machines: Evaluation on Four Datasets"
+  authors:
+    - family-names: Souza
+      given-names: Misael Silva
+    - family-names: Lolis
+      given-names: Luis Henrique Assumpção
+    - family-names: Sardá
+      given-names: Alexandre Augusto Pescador
+  journal: "Mechanical Systems and Signal Processing"
+  year: 2026
+  notes: "Submitted"

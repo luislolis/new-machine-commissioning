@@ -1,0 +1,139 @@
+r9 | IMS 2/3 | Set 1: ref 0+4 h (fim dia 0.08), certo rol 4 a 5.17 d | Set 2: ref 0+4 h (fim dia 0.16), certo rol 1 a 3.06 d | Set 3: ref 0+4 h (fim dia 0.16), saudavel longe rol 2 a 42.98 d
+   grade s0 x n: 24 (37) de 100; certas por set [76, 93, 33]
+   alarmes por rolamento (custo em inspecoes): Set 1: r1=0 r2=1 r3=1F r4=3F | Set 2: r1=6F r2=3 r3=2 r4=2 | Set 3: r1=3 r2=4 r3=1F r4=3
+   PRONOSTIA 16/17 (sem alarme: ['Bearing2_1']); mediana Rem 75 %, lead 2.85 h; nos 10 min: 2
+   JNU 12/12; janelas certas 11550/13182 (87.62 %); trava {'600': [0, 1465], '800': [0, 1465], '1000': [0, 1465]}
+   MAFAULDA Loos 1500/1538 (normais 0); artigo 1505 (normais 0); AUC(P_r) 0.9895
+
+d0 | IMS 2/3 | Set 1: ref 0+4 h (fim dia 0.08), certo rol 4 a 5.37 d | Set 2: ref 0+4 h (fim dia 0.16), certo rol 1 a 2.97 d | Set 3: ref 0+4 h (fim dia 0.16), saudavel longe rol 2 a 42.92 d
+   grade s0 x n: 17 (36) de 100; certas por set [79, 94, 34]
+   alarmes por rolamento (custo em inspecoes): Set 1: r1=0 r2=1 r3=2F r4=3F | Set 2: r1=6F r2=2 r3=2 r4=2 | Set 3: r1=3 r2=2 r3=1F r4=2
+   PRONOSTIA 17/17 (sem alarme: []); mediana Rem 80 %, lead 3.38 h; nos 10 min: 3
+   JNU 12/12; janelas certas 11975/13182 (90.84 %); trava {'600': [0, 1465], '800': [0, 1465], '1000': [0, 1465]}
+   MAFAULDA Loos 1516/1538 (normais 0); artigo 1523 (normais 0); AUC(P_r) 0.9957
+
+d1 | IMS 1/3 | Set 1: ref 0+4 h (fim dia 0.08), saudavel longe rol 1 a 22.57 d | Set 2: ref 0+4 h (fim dia 0.16), certo rol 1 a 3.13 d | Set 3: ref 0+4 h (fim dia 0.16), saudavel longe rol 2 a 43.78 d
+   grade s0 x n: 3 (6) de 100; certas por set [47, 93, 13]
+   alarmes por rolamento (custo em inspecoes): Set 1: r1=1 r2=1 r3=1F r4=3F | Set 2: r1=6F r2=2 r3=2 r4=2 | Set 3: r1=3 r2=4 r3=4F r4=3
+   PRONOSTIA 15/17 (sem alarme: ['Bearing1_2', 'Bearing1_7']); mediana Rem 77 %, lead 2.14 h; nos 10 min: 1
+   JNU 12/12; janelas certas 11527/13182 (87.45 %); trava {'600': [0, 1465], '800': [0, 1465], '1000': [0, 1465]}
+   MAFAULDA Loos 1537/1538 (normais 0); artigo 1537 (normais 0); AUC(P_r) 0.9995
+
+d2 | IMS 1/3 | Set 1: ref 0+4 h (fim dia 0.08), suspeito rol 4 a 24.84 d | Set 2: ref 0+4 h (fim dia 0.16), certo rol 1 a 3.10 d | Set 3: ref 0+4 h (fim dia 0.16), saudavel longe rol 2 a 42.47 d
+   grade s0 x n: 0 (5) de 100; certas por set [77, 94, 5]
+   alarmes por rolamento (custo em inspecoes): Set 1: r1=1 r2=1 r3=2F r4=2F | Set 2: r1=6F r2=2 r3=2 r4=4 | Set 3: r1=5 r2=5 r3=3F r4=6
+   PRONOSTIA 17/17 (sem alarme: []); mediana Rem 82 %, lead 3.72 h; nos 10 min: 3
+   JNU 12/12; janelas certas 11034/13182 (83.71 %); trava {'600': [0, 1465], '800': [0, 1465], '1000': [0, 1465]}
+   MAFAULDA Loos 1528/1538 (normais 0); artigo 1530 (normais 0); AUC(P_r) 0.9983
+
+d3 | IMS 1/3 | Set 1: ref 0+4 h (fim dia 0.08), saudavel longe rol 1 a 27.28 d | Set 2: ref 0+4 h (fim dia 0.16), certo rol 1 a 2.98 d | Set 3: ref 0+4 h (fim dia 0.16), saudavel longe rol 2 a 42.81 d
+   grade s0 x n: 15 (15) de 100; certas por set [71, 93, 20]
+   alarmes por rolamento (custo em inspecoes): Set 1: r1=1 r2=1 r3=1F r4=4F | Set 2: r1=6F r2=2 r3=2 r4=2 | Set 3: r1=4 r2=4 r3=4F r4=4
+   PRONOSTIA 17/17 (sem alarme: []); mediana Rem 82 %, lead 3.30 h; nos 10 min: 3
+   JNU 12/12; janelas certas 11800/13182 (89.52 %); trava {'600': [0, 1465], '800': [0, 1465], '1000': [0, 1465]}
+   MAFAULDA Loos 1510/1538 (normais 0); artigo 1525 (normais 0); AUC(P_r) 0.9959
+
+d4 | IMS 1/3 | Set 1: ref 0+4 h (fim dia 0.08), suspeito rol 4 a 22.57 d | Set 2: ref 0+4 h (fim dia 0.16), certo rol 1 a 2.61 d | Set 3: ref 0+4 h (fim dia 0.16), saudavel longe rol 2 a 42.98 d
+   grade s0 x n: 0 (0) de 100; certas por set [49, 93, 0]
+   alarmes por rolamento (custo em inspecoes): Set 1: r1=1 r2=0 r3=0F r4=2F | Set 2: r1=6F r2=2 r3=3 r4=1 | Set 3: r1=3 r2=4 r3=1F r4=3
+   PRONOSTIA 17/17 (sem alarme: []); mediana Rem 77 %, lead 3.64 h; nos 10 min: 2
+   JNU 12/12; janelas certas 10757/13182 (81.60 %); trava {'600': [0, 1465], '800': [0, 1465], '1000': [0, 1465]}
+   MAFAULDA Loos 1528/1538 (normais 0); artigo 1533 (normais 0); AUC(P_r) 0.9987
+
+rnd0 | IMS 1/3 | Set 1: ref 0+4 h (fim dia 0.08), eixo rol 1 a 27.33 d | Set 2: ref 0+4 h (fim dia 0.16), certo rol 1 a 3.07 d | Set 3: ref 0+4 h (fim dia 0.16), saudavel longe rol 2 a 42.97 d
+   grade s0 x n: 0 (6) de 100; certas por set [61, 94, 0]
+   alarmes por rolamento (custo em inspecoes): Set 1: r1=1 r2=1 r3=1F r4=2F | Set 2: r1=5F r2=3 r3=4 r4=3 | Set 3: r1=3 r2=5 r3=3F r4=5
+   PRONOSTIA 16/17 (sem alarme: ['Bearing1_2']); mediana Rem 75 %, lead 2.22 h; nos 10 min: 2
+   JNU 12/12; janelas certas 11131/13182 (84.44 %); trava {'600': [0, 1465], '800': [0, 1465], '1000': [0, 1465]}
+   MAFAULDA Loos 1536/1538 (normais 0); artigo 1537 (normais 0); AUC(P_r) 0.9999
+
+rnd1 | IMS 1/3 | Set 1: ref 0+4 h (fim dia 0.08), saudavel longe rol 1 a 27.35 d | Set 2: ref 0+4 h (fim dia 0.16), certo rol 1 a 3.06 d | Set 3: ref 0+4 h (fim dia 0.16), saudavel longe rol 2 a 42.99 d
+   grade s0 x n: 10 (11) de 100; certas por set [69, 93, 10]
+   alarmes por rolamento (custo em inspecoes): Set 1: r1=1 r2=1 r3=1F r4=2F | Set 2: r1=8F r2=3 r3=2 r4=4 | Set 3: r1=7 r2=5 r3=3F r4=6
+   PRONOSTIA 17/17 (sem alarme: []); mediana Rem 83 %, lead 3.38 h; nos 10 min: 4
+   JNU 12/12; janelas certas 10734/13182 (81.43 %); trava {'600': [0, 1465], '800': [0, 1465], '1000': [586, 879]}
+   MAFAULDA Loos 1530/1538 (normais 0); artigo 1537 (normais 0); AUC(P_r) 0.9998
+
+zer | IMS 2/3 | Set 1: ref 0+4 h (fim dia 0.08), certo rol 4 a 5.35 d | Set 2: ref 0+4 h (fim dia 0.16), certo rol 1 a 3.03 d | Set 3: ref 0+4 h (fim dia 0.16), saudavel longe rol 2 a 42.81 d
+   grade s0 x n: 5 (6) de 100; certas por set [79, 93, 6]
+   alarmes por rolamento (custo em inspecoes): Set 1: r1=0 r2=1 r3=1F r4=3F | Set 2: r1=4F r2=3 r3=2 r4=2 | Set 3: r1=4 r2=4 r3=2F r4=5
+   PRONOSTIA 17/17 (sem alarme: []); mediana Rem 75 %, lead 3.37 h; nos 10 min: 4
+   JNU 12/12; janelas certas 11179/13182 (84.81 %); trava {'600': [0, 1465], '800': [0, 1465], '1000': [0, 586]}
+   MAFAULDA Loos 1500/1538 (normais 0); artigo 1505 (normais 0); AUC(P_r) 0.9895
+
+ce | IMS 1/3 | Set 1: ref 0+4 h (fim dia 0.08), saudavel longe rol 1 a 27.38 d | Set 2: ref 0+4 h (fim dia 0.16), certo rol 1 a 3.03 d | Set 3: ref 0+4 h (fim dia 0.16), saudavel longe rol 2 a 42.94 d
+   grade s0 x n: 1 (33) de 100; certas por set [52, 93, 4]
+   alarmes por rolamento (custo em inspecoes): Set 1: r1=1 r2=1 r3=1F r4=0F | Set 2: r1=5F r2=2 r3=2 r4=2 | Set 3: r1=3 r2=3 r3=4F r4=4
+   PRONOSTIA 11/17 (sem alarme: ['Bearing1_2', 'Bearing1_5', 'Bearing1_7', 'Bearing2_2', 'Bearing2_7', 'Bearing3_3']); mediana Rem 72 %, lead 4.15 h; nos 10 min: 1
+   JNU 12/12; janelas certas 10170/13182 (77.15 %); trava {'600': [0, 1465], '800': [0, 1465], '1000': [586, 879]}
+   MAFAULDA Loos 1178/1538 (normais 0); artigo 1206 (normais 0); AUC(P_r) 0.8270
+
+specn | IMS 1/3 | Set 1: ref 0+4 h (fim dia 0.08), saudavel longe rol 1 a 27.35 d | Set 2: ref 0+4 h (fim dia 0.16), certo rol 1 a 2.87 d | Set 3: ref 0+4 h (fim dia 0.16), saudavel longe rol 2 a 38.19 d
+   grade s0 x n: 0 (0) de 100; certas por set [49, 93, 1]
+   alarmes por rolamento (custo em inspecoes): Set 1: r1=1 r2=1 r3=2F r4=2F | Set 2: r1=7F r2=3 r3=2 r4=3 | Set 3: r1=3 r2=3 r3=2F r4=7
+   PRONOSTIA 17/17 (sem alarme: []); mediana Rem 84 %, lead 3.75 h; nos 10 min: 5
+   JNU 12/12; janelas certas 9833/13182 (74.59 %); trava {'600': [0, 1465], '800': [0, 1465], '1000': [0, 1465]}
+   MAFAULDA Loos 1538/1538 (normais 0); artigo 1538 (normais 0); AUC(P_r) 1.0000
+
+spec | IMS 1/3 | Set 1: ref 0+4 h (fim dia 0.08), eixo rol 1 a 27.38 d | Set 2: ref 0+4 h (fim dia 0.16), certo rol 1 a 2.57 d | Set 3: ref 0+4 h (fim dia 0.16), saudavel longe rol 2 a 42.38 d
+   grade s0 x n: 0 (0) de 100; certas por set [82, 93, 0]
+   alarmes por rolamento (custo em inspecoes): Set 1: r1=1 r2=1 r3=3F r4=3F | Set 2: r1=7F r2=3 r3=3 r4=4 | Set 3: r1=4 r2=5 r3=5F r4=7
+   PRONOSTIA 17/17 (sem alarme: []); mediana Rem 84 %, lead 3.76 h; nos 10 min: 5
+   JNU 12/12; janelas certas 9909/13182 (75.17 %); trava {'600': [0, 1465], '800': [0, 1465], '1000': [0, 1465]}
+   MAFAULDA Loos 1538/1538 (normais 0); artigo 1538 (normais 0); AUC(P_r) 1.0000
+
+featn | IMS 3/3 | Set 1: ref 0+4 h (fim dia 0.08), certo rol 4 a 6.44 d | Set 2: ref 0+4 h (fim dia 0.16), certo rol 1 a 1.95 d | Set 3: ref 0+4 h (fim dia 0.16), certo rol 3 a 1.12 d
+   grade s0 x n: 75 (91) de 100; certas por set [96, 94, 78]
+   alarmes por rolamento (custo em inspecoes): Set 1: r1=0 r2=0 r3=1F r4=2F | Set 2: r1=4F r2=0 r3=0 r4=0 | Set 3: r1=0 r2=0 r3=2F r4=0
+   PRONOSTIA 14/17 (sem alarme: ['Bearing1_2', 'Bearing2_7', 'Bearing3_1']); mediana Rem 26 %, lead 1.06 h; nos 10 min: 0
+   JNU 12/12; janelas certas 9950/13182 (75.48 %); trava {'600': [0, 1465], '800': [0, 1465], '1000': [0, 1465]}
+   MAFAULDA Loos 1273/1538 (normais 0); artigo 1348 (normais 0); AUC(P_r) 0.9460
+
+feat | IMS 1/3 | Set 1: ref 0+4 h (fim dia 0.08), suspeito rol 3 a 27.38 d | Set 2: ref 0+4 h (fim dia 0.16), certo rol 1 a 2.62 d | Set 3: ref 0+4 h (fim dia 0.16), saudavel longe rol 4 a 28.06 d
+   grade s0 x n: 8 (19) de 100; certas por set [99, 93, 10]
+   alarmes por rolamento (custo em inspecoes): Set 1: r1=1 r2=1 r3=3F r4=3F | Set 2: r1=5F r2=2 r3=1 r4=3 | Set 3: r1=1 r2=2 r3=3F r4=4
+   PRONOSTIA 17/17 (sem alarme: []); mediana Rem 42 %, lead 1.12 h; nos 10 min: 1
+   JNU 12/12; janelas certas 10057/13182 (76.29 %); trava {'600': [0, 1465], '800': [0, 1465], '1000': [0, 1465]}
+   MAFAULDA Loos 1529/1538 (normais 0); artigo 1533 (normais 0); AUC(P_r) 0.9986
+
+r14b0 | IMS 1/3 | Set 1: ref 0+4 h (fim dia 0.08), saudavel longe rol 1 a 27.14 d | Set 2: ref 0+4 h (fim dia 0.16), certo rol 1 a 3.03 d | Set 3: ref 0+4 h (fim dia 0.16), saudavel longe rol 2 a 43.04 d
+   grade s0 x n: 7 (7) de 100; certas por set [72, 95, 7]
+   alarmes por rolamento (custo em inspecoes): Set 1: r1=1 r2=1 r3=1F r4=1F | Set 2: r1=4F r2=3 r3=2 r4=2 | Set 3: r1=3 r2=6 r3=4F r4=2
+   PRONOSTIA 17/17 (sem alarme: []); mediana Rem 83 %, lead 3.06 h; nos 10 min: 3
+   JNU 12/12; janelas certas 12019/13182 (91.18 %); trava {'600': [0, 1465], '800': [0, 1465], '1000': [0, 1465]}
+   MAFAULDA Loos 1537/1538 (normais 0); artigo 1537 (normais 0); AUC(P_r) 0.9995
+
+r14b1 | IMS 1/3 | Set 1: ref 0+4 h (fim dia 0.08), saudavel longe rol 1 a 27.28 d | Set 2: ref 0+4 h (fim dia 0.16), certo rol 1 a 3.05 d | Set 3: ref 0+4 h (fim dia 0.16), saudavel longe rol 2 a 43.07 d
+   grade s0 x n: 5 (5) de 100; certas por set [43, 95, 7]
+   alarmes por rolamento (custo em inspecoes): Set 1: r1=1 r2=1 r3=0F r4=1F | Set 2: r1=6F r2=2 r3=2 r4=2 | Set 3: r1=3 r2=4 r3=3F r4=4
+   PRONOSTIA 17/17 (sem alarme: []); mediana Rem 84 %, lead 3.79 h; nos 10 min: 4
+   JNU 12/12; janelas certas 11936/13182 (90.55 %); trava {'600': [0, 1465], '800': [0, 1465], '1000': [0, 1465]}
+   MAFAULDA Loos 1538/1538 (normais 0); artigo 1538 (normais 0); AUC(P_r) 1.0000
+
+r14b2 | IMS 1/3 | Set 1: ref 0+4 h (fim dia 0.08), suspeito rol 4 a 18.35 d | Set 2: ref 0+4 h (fim dia 0.16), certo rol 1 a 2.62 d | Set 3: ref 0+4 h (fim dia 0.16), saudavel longe rol 2 a 42.93 d
+   grade s0 x n: 0 (16) de 100; certas por set [53, 94, 0]
+   alarmes por rolamento (custo em inspecoes): Set 1: r1=1 r2=1 r3=1F r4=1F | Set 2: r1=7F r2=2 r3=2 r4=2 | Set 3: r1=3 r2=7 r3=3F r4=3
+   PRONOSTIA 17/17 (sem alarme: []); mediana Rem 82 %, lead 3.27 h; nos 10 min: 2
+   JNU 12/12; janelas certas 11667/13182 (88.51 %); trava {'600': [0, 1465], '800': [0, 1465], '1000': [0, 1465]}
+   MAFAULDA Loos 1538/1538 (normais 0); artigo 1538 (normais 0); AUC(P_r) 1.0000
+
+r14m0 | IMS 1/3 | Set 1: ref 0+4 h (fim dia 0.08), saudavel longe rol 1 a 22.44 d | Set 2: ref 0+4 h (fim dia 0.16), certo rol 1 a 3.06 d | Set 3: ref 0+4 h (fim dia 0.16), saudavel longe rol 2 a 42.44 d
+   grade s0 x n: 4 (15) de 100; certas por set [43, 94, 20]
+   alarmes por rolamento (custo em inspecoes): Set 1: r1=1 r2=1 r3=1F r4=1F | Set 2: r1=6F r2=1 r3=2 r4=2 | Set 3: r1=3 r2=3 r3=2F r4=3
+   PRONOSTIA 17/17 (sem alarme: []); mediana Rem 77 %, lead 2.82 h; nos 10 min: 3
+   JNU 12/12; janelas certas 11865/13182 (90.01 %); trava {'600': [0, 1465], '800': [0, 1465], '1000': [0, 1465]}
+   MAFAULDA Loos 1538/1538 (normais 0); artigo 1538 (normais 0); AUC(P_r) 1.0000
+
+r14m1 | IMS 1/3 | Set 1: ref 0+4 h (fim dia 0.08), eixo rol 1 a 27.34 d | Set 2: ref 0+4 h (fim dia 0.16), certo rol 1 a 3.06 d | Set 3: ref 0+4 h (fim dia 0.16), saudavel longe rol 2 a 42.42 d
+   grade s0 x n: 0 (0) de 100; certas por set [18, 94, 0]
+   alarmes por rolamento (custo em inspecoes): Set 1: r1=1 r2=1 r3=1F r4=1F | Set 2: r1=6F r2=2 r3=2 r4=4 | Set 3: r1=3 r2=4 r3=3F r4=6
+   PRONOSTIA 17/17 (sem alarme: []); mediana Rem 83 %, lead 3.74 h; nos 10 min: 4
+   JNU 12/12; janelas certas 11199/13182 (84.96 %); trava {'600': [0, 1465], '800': [0, 1465], '1000': [0, 1465]}
+   MAFAULDA Loos 1538/1538 (normais 0); artigo 1538 (normais 0); AUC(P_r) 1.0000
+
+r14m2 | IMS 1/3 | Set 1: ref 0+4 h (fim dia 0.08), saudavel longe rol 1 a 27.38 d | Set 2: ref 0+4 h (fim dia 0.16), certo rol 1 a 2.71 d | Set 3: ref 0+4 h (fim dia 0.16), saudavel longe rol 2 a 37.55 d
+   grade s0 x n: 4 (4) de 100; certas por set [11, 94, 15]
+   alarmes por rolamento (custo em inspecoes): Set 1: r1=1 r2=1 r3=1F r4=2F | Set 2: r1=5F r2=2 r3=2 r4=3 | Set 3: r1=2 r2=4 r3=5F r4=5
+   PRONOSTIA 17/17 (sem alarme: []); mediana Rem 73 %, lead 2.17 h; nos 10 min: 3
+   JNU 12/12; janelas certas 12119/13182 (91.94 %); trava {'600': [0, 1465], '800': [0, 1465], '1000': [586, 879]}
+   MAFAULDA Loos 1538/1538 (normais 0); artigo 1538 (normais 0); AUC(P_r) 1.0000

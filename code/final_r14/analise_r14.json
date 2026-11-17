@@ -1,0 +1,485 @@
+{
+ "fidelidade": {
+  "arquivos": 30,
+  "maior_diferenca": 0.0001220703125
+ },
+ "referencia": [
+  {
+   "tag": "r9",
+   "maf_tp": 1500,
+   "maf_n": 1538,
+   "maf_fp": 0,
+   "maf_normais": 49,
+   "ims": {
+    "Set 1": {
+     "cat": "certo",
+     "acerto": true,
+     "rol": 4,
+     "lead_d": 5.17
+    },
+    "Set 2": {
+     "cat": "certo",
+     "acerto": true,
+     "rol": 1,
+     "lead_d": 3.06
+    },
+    "Set 3": {
+     "cat": "saudavel longe",
+     "acerto": false,
+     "rol": 2,
+     "lead_d": 42.98
+    }
+   },
+   "grade": 24,
+   "pron": 16,
+   "pron_total": 17,
+   "pron_10min": 2,
+   "jnu": 12,
+   "jnu_total": 12,
+   "jnu_acc": 87.62
+  },
+  {
+   "tag": "d0",
+   "maf_tp": 1516,
+   "maf_n": 1538,
+   "maf_fp": 0,
+   "maf_normais": 49,
+   "ims": {
+    "Set 1": {
+     "cat": "certo",
+     "acerto": true,
+     "rol": 4,
+     "lead_d": 5.37
+    },
+    "Set 2": {
+     "cat": "certo",
+     "acerto": true,
+     "rol": 1,
+     "lead_d": 2.97
+    },
+    "Set 3": {
+     "cat": "saudavel longe",
+     "acerto": false,
+     "rol": 2,
+     "lead_d": 42.92
+    }
+   },
+   "grade": 17,
+   "pron": 17,
+   "pron_total": 17,
+   "pron_10min": 3,
+   "jnu": 12,
+   "jnu_total": 12,
+   "jnu_acc": 90.84
+  },
+  {
+   "tag": "d1",
+   "maf_tp": 1537,
+   "maf_n": 1538,
+   "maf_fp": 0,
+   "maf_normais": 49,
+   "ims": {
+    "Set 1": {
+     "cat": "saudavel longe",
+     "acerto": false,
+     "rol": 1,
+     "lead_d": 22.57
+    },
+    "Set 2": {
+     "cat": "certo",
+     "acerto": true,
+     "rol": 1,
+     "lead_d": 3.13
+    },
+    "Set 3": {
+     "cat": "saudavel longe",
+     "acerto": false,
+     "rol": 2,
+     "lead_d": 43.78
+    }
+   },
+   "grade": 3,
+   "pron": 15,
+   "pron_total": 17,
+   "pron_10min": 1,
+   "jnu": 12,
+   "jnu_total": 12,
+   "jnu_acc": 87.45
+  },
+  {
+   "tag": "d2",
+   "maf_tp": 1528,
+   "maf_n": 1538,
+   "maf_fp": 0,
+   "maf_normais": 49,
+   "ims": {
+    "Set 1": {
+     "cat": "suspeito",
+     "acerto": false,
+     "rol": 4,
+     "lead_d": 24.84
+    },
+    "Set 2": {
+     "cat": "certo",
+     "acerto": true,
+     "rol": 1,
+     "lead_d": 3.1
+    },
+    "Set 3": {
+     "cat": "saudavel longe",
+     "acerto": false,
+     "rol": 2,
+     "lead_d": 42.47
+    }
+   },
+   "grade": 0,
+   "pron": 17,
+   "pron_total": 17,
+   "pron_10min": 3,
+   "jnu": 12,
+   "jnu_total": 12,
+   "jnu_acc": 83.71
+  },
+  {
+   "tag": "d3",
+   "maf_tp": 1510,
+   "maf_n": 1538,
+   "maf_fp": 0,
+   "maf_normais": 49,
+   "ims": {
+    "Set 1": {
+     "cat": "saudavel longe",
+     "acerto": false,
+     "rol": 1,
+     "lead_d": 27.28
+    },
+    "Set 2": {
+     "cat": "certo",
+     "acerto": true,
+     "rol": 1,
+     "lead_d": 2.98
+    },
+    "Set 3": {
+     "cat": "saudavel longe",
+     "acerto": false,
+     "rol": 2,
+     "lead_d": 42.81
+    }
+   },
+   "grade": 15,
+   "pron": 17,
+   "pron_total": 17,
+   "pron_10min": 3,
+   "jnu": 12,
+   "jnu_total": 12,
+   "jnu_acc": 89.52
+  },
+  {
+   "tag": "d4",
+   "maf_tp": 1528,
+   "maf_n": 1538,
+   "maf_fp": 0,
+   "maf_normais": 49,
+   "ims": {
+    "Set 1": {
+     "cat": "suspeito",
+     "acerto": false,
+     "rol": 4,
+     "lead_d": 22.57
+    },
+    "Set 2": {
+     "cat": "certo",
+     "acerto": true,
+     "rol": 1,
+     "lead_d": 2.61
+    },
+    "Set 3": {
+     "cat": "saudavel longe",
+     "acerto": false,
+     "rol": 2,
+     "lead_d": 42.98
+    }
+   },
+   "grade": 0,
+   "pron": 17,
+   "pron_total": 17,
+   "pron_10min": 2,
+   "jnu": 12,
+   "jnu_total": 12,
+   "jnu_acc": 81.6
+  }
+ ],
+ "rodada14": [
+  {
+   "tag": "r14b0",
+   "maf_tp": 1537,
+   "maf_n": 1538,
+   "maf_fp": 0,
+   "maf_normais": 49,
+   "ims": {
+    "Set 1": {
+     "cat": "saudavel longe",
+     "acerto": false,
+     "rol": 1,
+     "lead_d": 27.14
+    },
+    "Set 2": {
+     "cat": "certo",
+     "acerto": true,
+     "rol": 1,
+     "lead_d": 3.03
+    },
+    "Set 3": {
+     "cat": "saudavel longe",
+     "acerto": false,
+     "rol": 2,
+     "lead_d": 43.04
+    }
+   },
+   "grade": 7,
+   "pron": 17,
+   "pron_total": 17,
+   "pron_10min": 3,
+   "jnu": 12,
+   "jnu_total": 12,
+   "jnu_acc": 91.18
+  },
+  {
+   "tag": "r14b1",
+   "maf_tp": 1538,
+   "maf_n": 1538,
+   "maf_fp": 0,
+   "maf_normais": 49,
+   "ims": {
+    "Set 1": {
+     "cat": "saudavel longe",
+     "acerto": false,
+     "rol": 1,
+     "lead_d": 27.28
+    },
+    "Set 2": {
+     "cat": "certo",
+     "acerto": true,
+     "rol": 1,
+     "lead_d": 3.05
+    },
+    "Set 3": {
+     "cat": "saudavel longe",
+     "acerto": false,
+     "rol": 2,
+     "lead_d": 43.07
+    }
+   },
+   "grade": 5,
+   "pron": 17,
+   "pron_total": 17,
+   "pron_10min": 4,
+   "jnu": 12,
+   "jnu_total": 12,
+   "jnu_acc": 90.55
+  },
+  {
+   "tag": "r14b2",
+   "maf_tp": 1538,
+   "maf_n": 1538,
+   "maf_fp": 0,
+   "maf_normais": 49,
+   "ims": {
+    "Set 1": {
+     "cat": "suspeito",
+     "acerto": false,
+     "rol": 4,
+     "lead_d": 18.35
+    },
+    "Set 2": {
+     "cat": "certo",
+     "acerto": true,
+     "rol": 1,
+     "lead_d": 2.62
+    },
+    "Set 3": {
+     "cat": "saudavel longe",
+     "acerto": false,
+     "rol": 2,
+     "lead_d": 42.93
+    }
+   },
+   "grade": 0,
+   "pron": 17,
+   "pron_total": 17,
+   "pron_10min": 2,
+   "jnu": 12,
+   "jnu_total": 12,
+   "jnu_acc": 88.51
+  },
+  {
+   "tag": "r14m0",
+   "maf_tp": 1538,
+   "maf_n": 1538,
+   "maf_fp": 0,
+   "maf_normais": 49,
+   "ims": {
+    "Set 1": {
+     "cat": "saudavel longe",
+     "acerto": false,
+     "rol": 1,
+     "lead_d": 22.44
+    },
+    "Set 2": {
+     "cat": "certo",
+     "acerto": true,
+     "rol": 1,
+     "lead_d": 3.06
+    },
+    "Set 3": {
+     "cat": "saudavel longe",
+     "acerto": false,
+     "rol": 2,
+     "lead_d": 42.44
+    }
+   },
+   "grade": 4,
+   "pron": 17,
+   "pron_total": 17,
+   "pron_10min": 3,
+   "jnu": 12,
+   "jnu_total": 12,
+   "jnu_acc": 90.01
+  },
+  {
+   "tag": "r14m1",
+   "maf_tp": 1538,
+   "maf_n": 1538,
+   "maf_fp": 0,
+   "maf_normais": 49,
+   "ims": {
+    "Set 1": {
+     "cat": "eixo",
+     "acerto": false,
+     "rol": 1,
+     "lead_d": 27.34
+    },
+    "Set 2": {
+     "cat": "certo",
+     "acerto": true,
+     "rol": 1,
+     "lead_d": 3.06
+    },
+    "Set 3": {
+     "cat": "saudavel longe",
+     "acerto": false,
+     "rol": 2,
+     "lead_d": 42.42
+    }
+   },
+   "grade": 0,
+   "pron": 17,
+   "pron_total": 17,
+   "pron_10min": 4,
+   "jnu": 12,
+   "jnu_total": 12,
+   "jnu_acc": 84.96
+  },
+  {
+   "tag": "r14m2",
+   "maf_tp": 1538,
+   "maf_n": 1538,
+   "maf_fp": 0,
+   "maf_normais": 49,
+   "ims": {
+    "Set 1": {
+     "cat": "saudavel longe",
+     "acerto": false,
+     "rol": 1,
+     "lead_d": 27.38
+    },
+    "Set 2": {
+     "cat": "certo",
+     "acerto": true,
+     "rol": 1,
+     "lead_d": 2.71
+    },
+    "Set 3": {
+     "cat": "saudavel longe",
+     "acerto": false,
+     "rol": 2,
+     "lead_d": 37.55
+    }
+   },
+   "grade": 4,
+   "pron": 17,
+   "pron_total": 17,
+   "pron_10min": 3,
+   "jnu": 12,
+   "jnu_total": 12,
+   "jnu_acc": 91.94
+  }
+ ],
+ "veredito": {
+  "b": {
+   "nome": "binario",
+   "passa": false,
+   "set1_acertos": 0,
+   "criterios": {
+    "r14b0": {
+     "set1": false,
+     "set2": true,
+     "pron": true,
+     "jnu": true,
+     "normais": true
+    },
+    "r14b1": {
+     "set1": false,
+     "set2": true,
+     "pron": true,
+     "jnu": true,
+     "normais": true
+    },
+    "r14b2": {
+     "set1": false,
+     "set2": true,
+     "pron": true,
+     "jnu": true,
+     "normais": true
+    }
+   }
+  },
+  "m": {
+   "nome": "multiclasse",
+   "passa": false,
+   "set1_acertos": 0,
+   "criterios": {
+    "r14m0": {
+     "set1": false,
+     "set2": true,
+     "pron": true,
+     "jnu": true,
+     "normais": true
+    },
+    "r14m1": {
+     "set1": false,
+     "set2": true,
+     "pron": true,
+     "jnu": true,
+     "normais": true
+    },
+    "r14m2": {
+     "set1": false,
+     "set2": true,
+     "pron": true,
+     "jnu": true,
+     "normais": true
+    }
+   }
+  }
+ },
+ "r2_specn": {
+  "r9": 0.6100314270048222,
+  "r14b0": 0.762686194903284,
+  "r14b1": 0.7233450199786241,
+  "r14b2": 0.7419015717985931,
+  "r14m0": 0.750247039040093,
+  "r14m1": 0.7209866111543496,
+  "r14m2": 0.7412822277288096
+ }
+}

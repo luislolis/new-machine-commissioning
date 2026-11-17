@@ -1,0 +1,75 @@
+MAFAULDA: 1951 gravacoes, 41 pastas de falha, 50 pontos nominais (49 com normal)
+passo da varredura normal: mediana 1.024 Hz, de 0.614 a 2.253 Hz
+ponto sem normal: 39, em 50.688 Hz (entre as normais 49.56 e 51.81 Hz)
+
+1. Casos, nas 1902 gravacoes de falha
+   E   447  (23.5 %)
+   J  1173  (61.7 %)
+   G   282  (14.8 %)
+   R   227  reordenado
+   V    38  sem nominal
+   D    38  duplicado
+   desvio |Hz|: mediana 0.205, p90 0.614, max 1.024
+
+2. Por classe
+                           n    E    J   G   R   V   D  desvio_medio_passos  negativos  positivos
+classe                                                                                           
+horizontal-misalignment  197   37  120  40  29   4   4                -0.39         92         68
+imbalance                333   85  198  50  46   7   2                -0.12        138        110
+overhang-bearing         513  134  304  75  55  10   8                -0.45        235        144
+underhang-bearing        558  134  356  68  50  11   8                -0.25        240        184
+vertical-misalignment    301   57  195  49  47   6  16                -0.36        149         95
+
+3. A falha desloca a rotacao? desvio assinado por severidade (passos de 0,2048 Hz)
+   imbalance                10g +0.25  15g +0.42  20g -0.04  25g -1.19  30g -0.21  35g -0.11  6g +0.00 | Spearman(severidade, desvio) = -0.12 (p = 0.03)
+   horizontal-misalignment  0.5mm -0.42  1.0mm -0.57  1.5mm -0.24  2.0mm -0.31 | Spearman(severidade, desvio) = +0.04 (p = 0.58)
+   vertical-misalignment    0.51mm -0.71  0.63mm -0.30  1.27mm -0.40  1.40mm +0.08  1.78mm -0.34  1.90mm -0.50 | Spearman(severidade, desvio) = +0.05 (p = 0.42)
+   underhang-bearing        ball_fault/0g -0.92  ball_fault/20g -0.41  ball_fault/35g +0.16  ball_fault/6g -0.63  cage_fault/0g +0.08  cage_fault/20g +0.04  cage_fault/35g -0.17  cage_fault/6g +0.38  outer_race/0g +0.04  outer_race/20g -0.61  outer_race/35g -0.30  outer_race/6g -0.55 | Spearman(severidade, desvio) = +0.03 (p = 0.55)
+   overhang-bearing         ball_fault/0g -0.20  ball_fault/20g -0.52  ball_fault/35g -0.80  ball_fault/6g -0.37  cage_fault/0g -0.73  cage_fault/20g -0.49  cage_fault/35g -0.27  cage_fault/6g -0.78  outer_race/0g -0.53  outer_race/20g -0.29  outer_race/35g +0.07  outer_race/6g -0.57 | Spearman(severidade, desvio) = +0.05 (p = 0.25)
+   desvio contra a rotacao nominal, todas as falhas: Spearman -0.21 (p = 0.00)
+
+4. Cobertura: pontos nominais varridos por pasta
+   horizontal-misalignment/0.5mm       50 gravacoes, 49 pontos, ate 61.4 Hz
+   horizontal-misalignment/1.0mm       49 gravacoes, 49 pontos, ate 60.4 Hz
+   horizontal-misalignment/1.5mm       49 gravacoes, 48 pontos, ate 61.4 Hz
+   horizontal-misalignment/2.0mm       49 gravacoes, 49 pontos, ate 60.4 Hz
+   imbalance/10g                       48 gravacoes, 48 pontos, ate 61.4 Hz
+   imbalance/15g                       48 gravacoes, 48 pontos, ate 61.4 Hz
+   imbalance/20g                       49 gravacoes, 49 pontos, ate 61.4 Hz
+   imbalance/25g                       47 gravacoes, 46 pontos, ate 58.8 Hz
+   imbalance/30g                       47 gravacoes, 47 pontos, ate 59.6 Hz
+   imbalance/35g                       45 gravacoes, 45 pontos, ate 56.7 Hz
+   imbalance/6g                        49 gravacoes, 49 pontos, ate 61.4 Hz
+   overhang/ball_fault/0g              49 gravacoes, 49 pontos, ate 61.4 Hz
+   overhang/ball_fault/20g             25 gravacoes, 25 pontos, ate 36.5 Hz
+   overhang/ball_fault/35g             20 gravacoes, 20 pontos, ate 33.0 Hz
+   overhang/ball_fault/6g              43 gravacoes, 42 pontos, ate 55.7 Hz
+   overhang/cage_fault/0g              49 gravacoes, 48 pontos, ate 61.4 Hz
+   overhang/cage_fault/20g             49 gravacoes, 49 pontos, ate 61.4 Hz
+   overhang/cage_fault/35g             41 gravacoes, 41 pontos, ate 53.9 Hz
+   overhang/cage_fault/6g              49 gravacoes, 49 pontos, ate 61.4 Hz
+   overhang/outer_race/0g              49 gravacoes, 49 pontos, ate 61.4 Hz
+   overhang/outer_race/20g             49 gravacoes, 48 pontos, ate 61.4 Hz
+   overhang/outer_race/35g             41 gravacoes, 40 pontos, ate 53.9 Hz
+   overhang/outer_race/6g              49 gravacoes, 49 pontos, ate 61.4 Hz
+   underhang/ball_fault/0g             50 gravacoes, 49 pontos, ate 61.4 Hz
+   underhang/ball_fault/20g            49 gravacoes, 49 pontos, ate 61.4 Hz
+   underhang/ball_fault/35g            38 gravacoes, 37 pontos, ate 50.7 Hz
+   underhang/ball_fault/6g             49 gravacoes, 48 pontos, ate 61.4 Hz
+   underhang/cage_fault/0g             49 gravacoes, 49 pontos, ate 61.4 Hz
+   underhang/cage_fault/20g            49 gravacoes, 49 pontos, ate 61.4 Hz
+   underhang/cage_fault/35g            42 gravacoes, 42 pontos, ate 56.7 Hz
+   underhang/cage_fault/6g             48 gravacoes, 48 pontos, ate 61.4 Hz
+   underhang/outer_race/0g             49 gravacoes, 49 pontos, ate 61.4 Hz
+   underhang/outer_race/20g            49 gravacoes, 49 pontos, ate 61.4 Hz
+   underhang/outer_race/35g            37 gravacoes, 36 pontos, ate 58.8 Hz
+   underhang/outer_race/6g             49 gravacoes, 49 pontos, ate 61.4 Hz
+   vertical-misalignment/0.51mm        51 gravacoes, 48 pontos, ate 61.4 Hz
+   vertical-misalignment/0.63mm        50 gravacoes, 50 pontos, ate 61.4 Hz
+   vertical-misalignment/1.27mm        50 gravacoes, 49 pontos, ate 61.4 Hz
+   vertical-misalignment/1.40mm        50 gravacoes, 48 pontos, ate 61.4 Hz
+   vertical-misalignment/1.78mm        50 gravacoes, 49 pontos, ate 61.4 Hz
+   vertical-misalignment/1.90mm        50 gravacoes, 49 pontos, ate 61.4 Hz
+
+5. Diferenca para o pareamento da rodada 7 (rotacao normal mais proxima)
+   particao de teste da rodada 7: 415 falhas, 43 com ponto nominal diferente do mais proximo, 4 num ponto sem normal
