@@ -7,7 +7,7 @@ Code, checkpoints and result files for the article
 > Signal Processing, 2026.
 
 The derived data (window-level embeddings of the four datasets for every representation in the
-article) are archived on Zenodo: **DOI [to be added]**. The code in this repository is the code
+article) are archived on Zenodo: [10.5281/zenodo.24321827](https://doi.org/10.5281/zenodo.24321827). The code in this repository is the code
 that produced the numbers, tables and figures of the article; comments and variable names are in
 Portuguese.
 
@@ -53,6 +53,7 @@ code/                        analysis scripts (run from this folder)
                              published results of the auxiliary analyses
 checkpoints/                 the trained (and untrained) networks of Table 8, as PyTorch state dicts
 figs/                        figures are written here
+tools/                       how the Zenodo archives were built and local paths removed from the results
 ```
 
 ## Representations (tags)
@@ -83,7 +84,8 @@ pip install -r requirements.txt
 
 ## Reproducing the article from the archived embeddings
 
-1. Download the archives from Zenodo and place them as follows (paths relative to `code/`):
+1. Download the archives from [Zenodo](https://doi.org/10.5281/zenodo.24321827) (`MANIFEST.txt`
+   there has their SHA-256) and place them as follows (paths relative to `code/`):
 
    | Archive | Where |
    |---|---|

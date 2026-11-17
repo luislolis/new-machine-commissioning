@@ -5,6 +5,7 @@ type: software
 license: MIT
 version: "1.0.0"
 date-released: "2026-11-17"
+doi: "10.5281/zenodo.24321827"
 repository-code: "https://github.com/luislolis/new-machine-commissioning"
 authors:
   - family-names: Souza
