@@ -30,7 +30,7 @@ for p in sys.argv[1:]:
     s = io.open(p, encoding="utf-8").read()
     o = json.loads(s)
     n = limpa(o)
-    if n != o:
-        ind = 1 if "\n " in s[:200] and "\n  " not in s[:200] else (2 if "\n  " in s[:200] else None)
-        io.open(p, "w", encoding="utf-8").write(json.dumps(n, indent=ind))
+    novo = json.dumps(n, indent=1)        # o formato de final_v10.py e auc_r13.py
+    if novo != s:
+        io.open(p, "w", encoding="utf-8").write(novo)
         print("limpo:", p)

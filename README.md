@@ -108,7 +108,8 @@ pip install -r requirements.txt
 
    `final_v10.py <tag> ...` runs selected tags; without `--refaz` it skips tags whose
    `final_v10/resultado_<tag>.json` already exists. The committed result files are the ones in the
-   article, so `git diff code/final_v10` after a run shows any difference.
+   article, so `git diff code/final_v10` after a run shows any difference; only the run time
+   (`segundos`) is expected to change.
 
 | Article | Script | Output |
 |---|---|---|
