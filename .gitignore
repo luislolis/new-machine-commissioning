@@ -27,3 +27,4 @@ tools/.zenodo*
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+tools/zenodo_confere.py
